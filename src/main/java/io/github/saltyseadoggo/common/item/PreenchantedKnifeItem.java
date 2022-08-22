@@ -22,11 +22,11 @@ public class PreenchantedKnifeItem extends KnifeItem {
         this.level = level;
     }
 
-    //Code copied from https://github.com/TeamTwilight/twilightforest/blob/1.18.x/src/main/java/twilightforest/item/IceSwordItem.java
+    //Code copied from https://github.com/TeamTwilight/twilightforest/blob/1.19.x/src/main/java/twilightforest/item/IronwoodSwordItem.java
     //to apply a default enchantment, like all of the ironwood and steeleaf items have.
     //I modified it to take an enchantment and level for said enchantment from the constructor.
     public void fillItemCategory(CreativeModeTab tab, NonNullList<ItemStack> list) {
-        if (this.allowdedIn(tab)) {
+        if (this.allowedIn(tab)) {
             ItemStack istack = new ItemStack(this);
             istack.enchant(enchant.get(), level);
             list.add(istack);

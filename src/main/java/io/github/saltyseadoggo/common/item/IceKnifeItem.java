@@ -2,7 +2,6 @@ package io.github.saltyseadoggo.common.item;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
@@ -13,8 +12,8 @@ import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
-import twilightforest.client.particle.TFParticleType;
-import twilightforest.potions.TFMobEffects;
+import twilightforest.init.TFMobEffects;
+import twilightforest.init.TFParticleType;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 
 import java.util.List;
@@ -39,13 +38,12 @@ public class IceKnifeItem extends KnifeItem {
         return result;
     }
 
-    //Code copied from https://github.com/TeamTwilight/twilightforest/blob/1.18.x/src/main/java/twilightforest/item/KnightmetalSwordItem.java
+    //Code copied from https://github.com/TeamTwilight/twilightforest/blob/1.19.x/src/main/java/twilightforest/item/KnightmetalSwordItem.java
     //to display a tooltip telling the player that the knife sets entities on fire.
-    //Text code changed in 1.19. When I port this to 1.19, reference the class in the link in the 1.19 branch for how to fix the error that will appear here.
     @Override
     @OnlyIn(Dist.CLIENT)
     public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> list, TooltipFlag flags) {
         super.appendHoverText(stack, world, list, flags);
-        list.add(new TranslatableComponent(getDescriptionId() + ".tooltip").withStyle(ChatFormatting.GRAY));
+        list.add(Component.translatable(getDescriptionId() + ".tooltip").withStyle(ChatFormatting.GRAY));
     }
 }
