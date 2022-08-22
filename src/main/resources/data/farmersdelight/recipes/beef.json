@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "tool": {
+    "tag": "twilightknives:non_fiery_knives"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:minced_beef",
+      "count": 2
+    }
+  ]
+}

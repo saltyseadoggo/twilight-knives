@@ -1,0 +1,11 @@
+{
+  "item.twilightknives.ironwood_knife": "Ironwood Knife",
+  "item.twilightknives.steeleaf_knife": "Steeleaf Knife",
+  "item.twilightknives.knightmetal_knife": "Knightmetal Knife",
+  "item.twilightknives.knightmetal_knife.tooltip": "Extra damage to unarmored targets",
+  "item.twilightknives.fiery_knife": "Fiery Knife",
+  "item.twilightknives.fiery_knife.tooltip": "Burns targets",
+  "item.twilightknives.fiery_knife.tooltip2": "Cooks meats as it cuts them",
+  "item.twilightknives.ice_knife": "Ice Knife",
+  "item.twilightknives.ice_knife.tooltip": "Un-cooks meats as it cuts them"
+}

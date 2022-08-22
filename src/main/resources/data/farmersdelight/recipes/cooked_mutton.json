@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_mutton"
+    }
+  ],
+  "tool": {
+    "tag": "twilightknives:non_ice_knives"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:cooked_mutton_chops",
+      "count": 2
+    }
+  ]
+}

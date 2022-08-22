@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" m",
+		"s "
+	],
+	"key": {
+		"m": {
+			"tag": "forge:ingots/ironwood"
+		},
+		"s": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"type": "minecraft:item_nbt",
+		"item": "twilightknives:ironwood_knife",
+		"nbt": "{Enchantments:[{lvl:2s,id:\"minecraft:unbreaking\"}]}"
+	}
+}

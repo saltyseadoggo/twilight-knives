@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "twilightknives:ironwood_knife",
+    "twilightknives:steeleaf_knife",
+    "twilightknives:knightmetal_knife",
+    "twilightknives:fiery_knife",
+    "twilightknives:ice_knife"
+  ]
+}

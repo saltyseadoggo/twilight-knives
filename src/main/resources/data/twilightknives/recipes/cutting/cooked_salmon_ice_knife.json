@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_salmon"
+    }
+  ],
+  "tool": {
+    "item": "twilightknives:ice_knife"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:salmon_slice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ]
+}

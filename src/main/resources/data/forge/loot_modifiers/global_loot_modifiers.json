@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "entries": [
+    "twilightknives:add_loot_aurora_room",
+    "twilightknives:add_loot_aurora_cache"
+  ]
+}

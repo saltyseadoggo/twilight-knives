@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    }
+  ],
+  "tool": {
+    "item": "twilightknives:ice_knife"
+  },
+  "result": [
+    {
+      "item": "farmersdelight:minced_beef",
+      "count": 2
+    }
+  ]
+}
